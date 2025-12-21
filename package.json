@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon backend/index.js",
-    "build": "cd frontend/collabcode && npm install && npm run build",
+    "build": "cd frontend/collabcode && npm install --include=dev && npm run build",
     "start": "node backend/index.js"
   },
   "dependencies": {
