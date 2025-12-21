@@ -1,0 +1,19 @@
+{
+  "name": "collabcode",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/index.js",
+    "build": "cd frontend/collabcode && npm install && npm run build",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
